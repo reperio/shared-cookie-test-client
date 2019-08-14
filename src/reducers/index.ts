@@ -7,7 +7,7 @@ import { appReducer } from "./appReducer";
 
 
 export const createRootReducer = (history: History) => combineReducers({
-    sampleProps: appReducer,
+    auth: appReducer,
     router: connectRouter(history),
     form: formReducer
 });

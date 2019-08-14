@@ -1,7 +1,7 @@
-export interface StateSampleProps {
-    counter: number;
+export interface StateAuth {
+    currentAuth: any;
 }
 
 export interface State {
-    sampleProps: StateSampleProps
+    auth: StateAuth
 }
